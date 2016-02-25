@@ -1,0 +1,45 @@
+# Site title and subtitle. This is used in _includes/header.html
+title: 'CorrelatorSharp'
+subtitle: 'Painless automagical correlation and context-logging for your projects'
+
+# if you wish to integrate disqus on pages set your shortname here
+disqus_shortname: ''
+
+# if you use google analytics, add your tracking id here
+google_analytics_id: 'UA-74289835-1'
+
+# Enable/show navigation. There are there options:
+#   0 - always hide
+#   1 - always show
+#   2 - show only if posts are present
+navigation: 1
+
+# URL to source code, used in _includes/footer.html
+codeurl: 'https://github.com/CorrelatorSharp'
+
+# Default categories (in order) to appear in the navigation
+sections: [
+    ['docs', 'Documentation'],
+    ['javascript', 'JavaScript'],
+    ['dotnet', '.NET'],
+    ['python', 'Python'],
+]
+
+# Keep as an empty string if served up at the root. If served up at a specific
+# path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
+baseurl: ''
+
+# Dates are not included in permalinks
+permalink: none
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Since these are pages, it doesn't really matter
+future: true
+
+# Exclude non-site files
+exclude: []
